@@ -35,6 +35,7 @@ const employees = [
 console.log('array of employee data: ',  employees );
 
 
+
 // YOU SHOULD NOT NEED TO CHANGE ANYTHING ABOVE THIS POINT
 
 // This problem is massive! Break the problem down, take small steps, and test as you go.
@@ -48,10 +49,40 @@ console.log('array of employee data: ',  employees );
 
 // This function will calculate 1 employee's bonus!
 //
-function calculateIndividualEmployeeBonus( employee ) {  
-  // your logic here
-  
-  
-  // return new object with bonus results
-
+for(let i=0; i<employees.length; i++){
+  console.log(employees[i]);
 }
+
+function calculateIndividualEmployeeBonus( xxx ) {
+  console.log('information passed in:', xxx);  
+  let bonusResults = {};
+   bonusResults.name = 7;
+   bonusResults.bonusPercentage = 7;
+   bonusResults.totalCompensation = 7;
+   bonusResults.totalBonus = xxx;
+   console.log(bonusResults);
+
+ // need to figure out a way to make dynamic
+  
+} 
+calculateIndividualEmployeeBonus(6)
+  // return new object with bonus results
+// return bonusResults
+// }
+
+
+// if(reviewRating <= 2){
+//   annualSalary
+// }
+// else if( reviewRating = 3){
+//   annualSalary * .04
+// }
+// else if( reviewRating =4){
+//   annualSalary * .06
+// }
+// else if (reviewRating = 5) {
+//   annualSalary * .1
+// }
+// else if (reviewRa) {
+  
+// }
